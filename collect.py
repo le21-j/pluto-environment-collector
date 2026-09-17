@@ -4,7 +4,7 @@ HERE=pathlib.Path(__file__).resolve().parent
 ROOT='/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto'
 CODEX='/mnt/c/Users/Jayden Le/.codex/visualizations/2026/09/09/01a083fa-a885-7563-aacc-5fbfb33e1679'
 p=argparse.ArgumentParser()
-p.add_argument('--name',default='Lab');p.add_argument('--execute',action='store_true');p.add_argument('--check',action='store_true')
+p.add_argument('--name',default='Corridor',choices=['Corridor','Outside','corridor','outside']);p.add_argument('--execute',action='store_true');p.add_argument('--check',action='store_true')
 a=p.parse_args()
 if a.check and a.execute:p.error('--check cannot be combined with --execute')
 runtime=HERE/'.runtime'
@@ -26,13 +26,14 @@ argv=['proot','-b',str(runtime/'mnt/c')+':/mnt/c','-b',str(HERE)+':/collector']
 for path in ['home/jayden/armv7-eabihf--glibc--stable','home/jayden/.cache/aircomp_pluto_link']:
  argv+=['-b',str(runtime/path)+':/'+path]
 argv+=['-w','/collector']
-env=dict(os.environ,MPLBACKEND='Agg',PYTHONNOUSERSITE='1')
+env=dict(os.environ,MPLBACKEND='Agg',PYTHONNOUSERSITE='1',PATH='/collector/.venv/bin:/collector/bin:'+os.environ['PATH'])
 if a.check:
- for script in ['run_objective_fixed_loop_v1.py','run_objective_fixed_loop_batch_v1.py']:
+ for script in ['run_fixed_pure_environment_v1.py']:
   subprocess.run(argv+['/collector/.venv/bin/python',ROOT+'/candidate/rx_dma_v12/rf_live_support/'+script,'--help'],env=env,check=True,stdout=subprocess.DEVNULL)
- print('Collector and batch imports passed.',flush=True)
+ print('Fixed-mu regret-learning collector import passed.',flush=True)
  subprocess.run(argv+['/collector/.venv/bin/python','/collector/offline_check.py'],env=env,check=True)
-argv+=['/collector/.venv/bin/python',ROOT+'/candidate/rx_dma_v12/rf_live_support/run_objective_fixed_loop_named_v1.py','--name',a.name,'--output-root','/collector/results']
+argv+=['/collector/.venv/bin/python','/collector/collect_fixed.py','--name',a.name]
+if a.check:argv+=['--check']
 if a.execute:argv+=['--execute']
 rc=subprocess.run(argv,env=env).returncode
 if a.execute:

@@ -1,6 +1,6 @@
 # Pluto environment collector
 
-Collect **minimum MSE** and **maximum utility** fixed-action models, with three fresh RF runs per model. Each run calibrates once, freezes one action, then records 40 measured epochs. The unchanged reviewed collector automatically plots mean MSE, utility and power bars and exports a named result ZIP.
+Collect the **normal regret-learning loop at fixed μ = 50**, for **40 epochs**, starting at amplitude level 3 (amplitude 1.0). Learner updates remain enabled and can change the action every epoch; μ stays fixed. The ordinary native preflight, sensor schedule and data-collection loop are retained. Each invocation performs one fresh RF round, automatically generates Pure Results trajectory plots and MSE/utility/power bars, and exports a named result ZIP.
 
 ## Laptop setup
 
@@ -35,7 +35,7 @@ cd pluto-environment-collector
 bash setup.sh
 ```
 
-The runtime, toolchain and preparation-support archives are release assets rather than Git files. `setup.sh` downloads them automatically and verifies their SHA-256 checksums before extraction. You can also download the three archives from the repository's v1.0.0 release manually and place them beside `setup.sh`. Do not remove `.runtime` or rerun setup to reset it after starting collection: it contains the evolving session registry and raw evidence.
+The runtime, toolchain, preparation-support and fixed-pure-support archives are release assets rather than Git files. `setup.sh` downloads them automatically and verifies their SHA-256 checksums before extraction. You can also download the four archives from the repository's v1.0.0 release manually and place them beside `setup.sh`. If updating an existing clone, run `git pull` followed by setup again; it adds the fixed-pure support while preserving the existing registry and raw evidence. Do not remove `.runtime` after starting collection.
 
 ## Collect an environment
 
@@ -53,13 +53,13 @@ Collect and automatically export:
 python3 collect.py --name "Corridor" --execute
 ```
 
-Repeat from the **same clone** for `Outside` and `Home`, or use your own environment names. Use only one active collector copy with these radios. The home collector is paused; preserve and return `results/session-registry-after-collection.json` before resuming collection there so session IDs remain unique.
+The reviewed environment runner supports `Corridor` and `Outside`. Repeat from the **same clone** for the other environment or additional fresh rounds. Use only one active collector copy with these radios. The home collector is paused; preserve and return `results/session-registry-after-collection.json` before resuming collection there so session IDs remain unique.
 
 ## Send results back
 
-Find `Results_<name>_.../Results_<name>.zip` under `results/`. Upload each environment's **entire ZIP** to your preferred file-sharing platform and send yourself its link. The ZIP includes the graph, portable summary values, raw archives and collection evidence. Return the three ZIPs for a combined comparison. Also return `results/session-registry-after-collection.json` from the final environment.
+Find `<environment>_<timestamp>_<unique-id>/Results_<name>.zip` under `results/`. Upload each environment's **entire ZIP** to your preferred file-sharing platform and send yourself its link. The ZIP includes trajectory plots, scalar bars, summary values, raw archives and collection evidence. Return the ZIPs for combining with the home results. Also return `results/session-registry-after-collection.json` from the final environment.
 
-Keep incomplete runs: they are marked incomplete, and missing measurements are not filled in. If no graph is produced, the launcher retains original evidence under `.runtime/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/objective_named/`.
+Keep incomplete runs: they are marked incomplete, and missing measurements are not filled in. The display cutoff uses 5% utility stability across two consecutive transitions; acquisition still collects the full 40 epochs. Bars average valid paired epochs, report their count, and use summed fleet utility and summed amplitude-squared power. If no graph is produced, the launcher retains original evidence under `.runtime/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/fixed_pure_environments/`.
 
 ## Implementation and validation
 

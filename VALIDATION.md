@@ -1,5 +1,13 @@
 # Offline portability validation
 
+## Current fixed-mu regret collector
+
+The launcher now runs one normal regret-learning round at fixed μ=50, horizon40 and initial level3. Per-epoch learner updates remain enabled. The unchanged fixed-pure firmware and separately authored plan/package verifier pass their frozen source checks under the portable Linux mappings. The retained RF engine imports successfully, and the Windows-style build launcher adapter executes the packaged ARM compiler natively. The immutable bundle now contains10,171 file entries; registry evolution is preserved during support updates. No device contact or session allocation occurred in these checks.
+
+The portability adapter changes host command invocation only; actual plan/package checks, canonical allocation, preflight, sensor payload, learning firmware and RF collection are retained. Its live execution on the lab laptop is still unvalidated.
+
+## Previous fixed-action package checks
+
 Validated on Ubuntu 22.04 x86-64 with Python 3.10, a fresh virtual environment and a separate extracted runtime directory, on 2026-09-17 UTC.
 
 - Archive SHA-256 verification and extraction passed.

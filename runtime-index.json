@@ -49658,5 +49658,1200 @@
     "path": "/mnt/c/Users/Jayden Le/.codex/visualizations/2026/09/09/01a083fa-a885-7563-aacc-5fbfb33e1679/arc3_campaign/fclk_prepare_build_20260909/arc3_fclk_prepare",
     "bytes": 11132,
     "sha256": "1554118e3e115e1f7b12b8d930a889cbcb686559c2723b8cf48923e29b279101"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/SOURCE_RECEIPT.json",
+    "bytes": 118357,
+    "sha256": "34f220f0140e045a91863ccc5b9d05168478921855737a820e455521ac5f5056"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/build_receipt.json",
+    "bytes": 2614,
+    "sha256": "1deb3fde1419e600326a8815e9fceb534a79aa7488d6259b6a4f9f857e58d14c"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/build_hpsr_paper_sensor_ed1/aircomp_ed",
+    "bytes": 586808,
+    "sha256": "6d6df39f7234f0ab0b52fff72e73790032a014357be5367b3217ab91050e3dbd"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/ed/epoch.c",
+    "bytes": 91576,
+    "sha256": "7038c0a95deb6ea897d70124ea2197a6a573622a2a69f6d4ba0094601a6fe7de"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/ed/main.c",
+    "bytes": 271306,
+    "sha256": "0bbe160cd36cb03344afe1ea3a1753509f37d5090b31acafe4e0a99a3dcd95c9"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/ed/regret_learning.c",
+    "bytes": 11140,
+    "sha256": "6e14338fb67a673825b4476dc60a03c86614a4bd71af214ca05879ef0cf7de78"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/ed/sahin_312_generated_provision.c",
+    "bytes": 5143,
+    "sha256": "8a1cc5f0cc32642af4125f0482baf9b4deea373aa8f9d99239dcac9293a4303c"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/es/main.c",
+    "bytes": 350639,
+    "sha256": "0e265c17d46cd59548243887099312051e2af7b7e8c223cf78081ce85c6f7b0b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/hpsr_known_sensor.c",
+    "bytes": 15052,
+    "sha256": "4e7ce5f04f3b3411b003b807ac13c752bb9633ffe3fe8d30424f6fa46cc1ce85"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/hpsr_known_sensor.h",
+    "bytes": 2877,
+    "sha256": "2604d5d396fd152e0b67934603bf6c86b60f40f9b8253465a5c220f2f06fd9cf"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/hpsr_known_sensor_full_air.c",
+    "bytes": 8048,
+    "sha256": "eafbc060c619167f74237e385b4df3d1dab1342d3e822de33cda038096423db4"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/hpsr_known_sensor_full_air.h",
+    "bytes": 1786,
+    "sha256": "82447184ff872a3c4010565ce993f259a99f81a2737f9315a2f5dc241c800b64"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/hpsr_known_sensor_transport_seam.c",
+    "bytes": 6965,
+    "sha256": "281984338480b88407bffa4c48dea06e8d246e821f55f6c863cb88ed1981b250"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/hpsr_known_sensor_transport_seam.h",
+    "bytes": 2372,
+    "sha256": "4518fa6eea8e55478656cffcd657c70757e2e8ea071ab2f08e19dce39a4d316e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/reference_runtime.c",
+    "bytes": 46108,
+    "sha256": "0c3e666d5a8cf400776762c2ac3bb2a300897cb964642f3e1caf7d7c0a9fa540"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_312ms_native_backend.c",
+    "bytes": 25235,
+    "sha256": "bd0f8b45a9dd2e6f74e835c91f1e4a9c9d69f62d72c84365a0ee9b8205927f98"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_312ms_native_backend.h",
+    "bytes": 6375,
+    "sha256": "db42394fae58fb75680ca4dedfcdd75c1b99cc4d03f2cc2ed920ea6a9848f696"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_312ms_physical_bridge.c",
+    "bytes": 16197,
+    "sha256": "a4ca66fa734b54a9e80e4ab6445d00d90dbb532e57e3b8232dbd78e3b5869b6e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_312ms_physical_bridge.h",
+    "bytes": 4191,
+    "sha256": "f8d0138a8c761663777c56b5ffefa1316052c983f57aa8f1d4ca5e1058088211"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_312ms_production.c",
+    "bytes": 174150,
+    "sha256": "aae7069171eb4ed3a5e973fd8abc41b8909c2c41ff903f67bc9e2a578f2f920e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_312ms_production.h",
+    "bytes": 26618,
+    "sha256": "f1649b01f963a8016ceaac780ad29cef4a1d98d4c3dbd2908f0e1ba47b87c695"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_312ms_runtime.c",
+    "bytes": 14650,
+    "sha256": "fefdb5c1f7b00a914a087ee4cf67c8d9aaee1c63d706c1039bd7856ab39ffba1"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_312ms_scheduler.c",
+    "bytes": 21387,
+    "sha256": "c7fad4ff9e61be92754857d343b1a751e9399ff26205df552a08ed1139466c7e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_312ms_scheduler.h",
+    "bytes": 10503,
+    "sha256": "9298ad7aa481e8522976ac6eaa0a323543c2eefad1ebf2a7024432c3dd4ef7ea"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_compact_feedback.c",
+    "bytes": 22597,
+    "sha256": "223c5ca263b984ce8568c35a46c77163d0eb03ce96182e9257bc2f4fd1efb9c0"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_paper_physical_policy.c",
+    "bytes": 7487,
+    "sha256": "95a2d87875a5e3defc1bda410caaf54bdca71e17db50c1cb6e548f09dd5f957f"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_paper_physical_policy.h",
+    "bytes": 2910,
+    "sha256": "c1aa49d33f59c68b4fc1124be9d4681b70b5231cb5fbf0dc16484a9a7719f654"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_paper_physical_regret_adapter.c",
+    "bytes": 11787,
+    "sha256": "652c13362c2c3d57b69df8931156982c3d7f2d675ad16576df736d4d62c36497"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_physical_es_reporting.c",
+    "bytes": 11540,
+    "sha256": "98052ef73814fb3f514ea21010a2da3cd10094c415e52f6087a10fe7b38775d2"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_physical_es_reporting.h",
+    "bytes": 2769,
+    "sha256": "96a5f472058090acf880c874d843c12ec94eac950f956b917139b743749b1e1b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_physical_runtime_telemetry.c",
+    "bytes": 27694,
+    "sha256": "0b29efe6c6ac92c6ad1f1e5cff8ca6e860c60420b738a7a0d5c951e33132a389"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_physical_runtime_telemetry.h",
+    "bytes": 4640,
+    "sha256": "17f4fefd1e1fd711577908c61af40f47b6cb2ad3001f63c73a437f115a6f33cb"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed1/firmware/sahin_base/sahin_trigger_window.h",
+    "bytes": 1967,
+    "sha256": "6d213f765eb1c902ecb237fc363fc341093679e8e80bc03d31607ea4b49154ed"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/build_receipt.json",
+    "bytes": 2614,
+    "sha256": "56779ea559abe4de43fe61d8c0e8402abdae51d74dd9c7980cead8a302a4d50b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/build_hpsr_paper_sensor_ed2/aircomp_ed",
+    "bytes": 586808,
+    "sha256": "dc2484a000820b9bb4124f0af5e3b8d4e2c1c0836d9268b62d0047881397510c"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/ed/epoch.c",
+    "bytes": 91576,
+    "sha256": "7038c0a95deb6ea897d70124ea2197a6a573622a2a69f6d4ba0094601a6fe7de"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/ed/main.c",
+    "bytes": 271306,
+    "sha256": "0bbe160cd36cb03344afe1ea3a1753509f37d5090b31acafe4e0a99a3dcd95c9"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/ed/regret_learning.c",
+    "bytes": 11140,
+    "sha256": "6e14338fb67a673825b4476dc60a03c86614a4bd71af214ca05879ef0cf7de78"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/ed/sahin_312_generated_provision.c",
+    "bytes": 5143,
+    "sha256": "1eb9cb61af4626c3bdbc46a5c9dda6122151a077901b2668bfd894f1007e6611"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/es/main.c",
+    "bytes": 350639,
+    "sha256": "0e265c17d46cd59548243887099312051e2af7b7e8c223cf78081ce85c6f7b0b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/hpsr_known_sensor.c",
+    "bytes": 15052,
+    "sha256": "4e7ce5f04f3b3411b003b807ac13c752bb9633ffe3fe8d30424f6fa46cc1ce85"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/hpsr_known_sensor.h",
+    "bytes": 2877,
+    "sha256": "2604d5d396fd152e0b67934603bf6c86b60f40f9b8253465a5c220f2f06fd9cf"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/hpsr_known_sensor_full_air.c",
+    "bytes": 8048,
+    "sha256": "eafbc060c619167f74237e385b4df3d1dab1342d3e822de33cda038096423db4"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/hpsr_known_sensor_full_air.h",
+    "bytes": 1786,
+    "sha256": "82447184ff872a3c4010565ce993f259a99f81a2737f9315a2f5dc241c800b64"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/hpsr_known_sensor_transport_seam.c",
+    "bytes": 6965,
+    "sha256": "281984338480b88407bffa4c48dea06e8d246e821f55f6c863cb88ed1981b250"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/hpsr_known_sensor_transport_seam.h",
+    "bytes": 2372,
+    "sha256": "4518fa6eea8e55478656cffcd657c70757e2e8ea071ab2f08e19dce39a4d316e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/reference_runtime.c",
+    "bytes": 46108,
+    "sha256": "0c3e666d5a8cf400776762c2ac3bb2a300897cb964642f3e1caf7d7c0a9fa540"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_312ms_native_backend.c",
+    "bytes": 25235,
+    "sha256": "bd0f8b45a9dd2e6f74e835c91f1e4a9c9d69f62d72c84365a0ee9b8205927f98"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_312ms_native_backend.h",
+    "bytes": 6375,
+    "sha256": "db42394fae58fb75680ca4dedfcdd75c1b99cc4d03f2cc2ed920ea6a9848f696"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_312ms_physical_bridge.c",
+    "bytes": 16197,
+    "sha256": "a4ca66fa734b54a9e80e4ab6445d00d90dbb532e57e3b8232dbd78e3b5869b6e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_312ms_physical_bridge.h",
+    "bytes": 4191,
+    "sha256": "f8d0138a8c761663777c56b5ffefa1316052c983f57aa8f1d4ca5e1058088211"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_312ms_production.c",
+    "bytes": 174150,
+    "sha256": "aae7069171eb4ed3a5e973fd8abc41b8909c2c41ff903f67bc9e2a578f2f920e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_312ms_production.h",
+    "bytes": 26618,
+    "sha256": "f1649b01f963a8016ceaac780ad29cef4a1d98d4c3dbd2908f0e1ba47b87c695"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_312ms_runtime.c",
+    "bytes": 14650,
+    "sha256": "fefdb5c1f7b00a914a087ee4cf67c8d9aaee1c63d706c1039bd7856ab39ffba1"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_312ms_scheduler.c",
+    "bytes": 21387,
+    "sha256": "c7fad4ff9e61be92754857d343b1a751e9399ff26205df552a08ed1139466c7e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_312ms_scheduler.h",
+    "bytes": 10503,
+    "sha256": "9298ad7aa481e8522976ac6eaa0a323543c2eefad1ebf2a7024432c3dd4ef7ea"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_compact_feedback.c",
+    "bytes": 22597,
+    "sha256": "223c5ca263b984ce8568c35a46c77163d0eb03ce96182e9257bc2f4fd1efb9c0"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_paper_physical_policy.c",
+    "bytes": 7487,
+    "sha256": "95a2d87875a5e3defc1bda410caaf54bdca71e17db50c1cb6e548f09dd5f957f"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_paper_physical_policy.h",
+    "bytes": 2910,
+    "sha256": "c1aa49d33f59c68b4fc1124be9d4681b70b5231cb5fbf0dc16484a9a7719f654"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_paper_physical_regret_adapter.c",
+    "bytes": 11787,
+    "sha256": "652c13362c2c3d57b69df8931156982c3d7f2d675ad16576df736d4d62c36497"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_physical_es_reporting.c",
+    "bytes": 11540,
+    "sha256": "98052ef73814fb3f514ea21010a2da3cd10094c415e52f6087a10fe7b38775d2"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_physical_es_reporting.h",
+    "bytes": 2769,
+    "sha256": "96a5f472058090acf880c874d843c12ec94eac950f956b917139b743749b1e1b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_physical_runtime_telemetry.c",
+    "bytes": 27694,
+    "sha256": "0b29efe6c6ac92c6ad1f1e5cff8ca6e860c60420b738a7a0d5c951e33132a389"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_physical_runtime_telemetry.h",
+    "bytes": 4640,
+    "sha256": "17f4fefd1e1fd711577908c61af40f47b6cb2ad3001f63c73a437f115a6f33cb"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed2/firmware/sahin_base/sahin_trigger_window.h",
+    "bytes": 1967,
+    "sha256": "6d213f765eb1c902ecb237fc363fc341093679e8e80bc03d31607ea4b49154ed"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/build_receipt.json",
+    "bytes": 2614,
+    "sha256": "91f7f20d3529fe8e62323b71b824db0ae752d8eda7e828eb9a793c97e889bc62"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/build_hpsr_paper_sensor_ed3/aircomp_ed",
+    "bytes": 586808,
+    "sha256": "d08092b20f14f0a4baf4b8dc54acae34ab8f6580d4d7a23b0cb015fdd6facc7c"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/ed/epoch.c",
+    "bytes": 91576,
+    "sha256": "7038c0a95deb6ea897d70124ea2197a6a573622a2a69f6d4ba0094601a6fe7de"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/ed/main.c",
+    "bytes": 271306,
+    "sha256": "0bbe160cd36cb03344afe1ea3a1753509f37d5090b31acafe4e0a99a3dcd95c9"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/ed/regret_learning.c",
+    "bytes": 11140,
+    "sha256": "6e14338fb67a673825b4476dc60a03c86614a4bd71af214ca05879ef0cf7de78"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/ed/sahin_312_generated_provision.c",
+    "bytes": 5143,
+    "sha256": "4dc4c2206c205f8782a5d68f8bd4e1b17d7d37c336a9f41d1c4e0cabce036e0e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/es/main.c",
+    "bytes": 350639,
+    "sha256": "0e265c17d46cd59548243887099312051e2af7b7e8c223cf78081ce85c6f7b0b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/hpsr_known_sensor.c",
+    "bytes": 15052,
+    "sha256": "4e7ce5f04f3b3411b003b807ac13c752bb9633ffe3fe8d30424f6fa46cc1ce85"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/hpsr_known_sensor.h",
+    "bytes": 2877,
+    "sha256": "2604d5d396fd152e0b67934603bf6c86b60f40f9b8253465a5c220f2f06fd9cf"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/hpsr_known_sensor_full_air.c",
+    "bytes": 8048,
+    "sha256": "eafbc060c619167f74237e385b4df3d1dab1342d3e822de33cda038096423db4"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/hpsr_known_sensor_full_air.h",
+    "bytes": 1786,
+    "sha256": "82447184ff872a3c4010565ce993f259a99f81a2737f9315a2f5dc241c800b64"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/hpsr_known_sensor_transport_seam.c",
+    "bytes": 6965,
+    "sha256": "281984338480b88407bffa4c48dea06e8d246e821f55f6c863cb88ed1981b250"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/hpsr_known_sensor_transport_seam.h",
+    "bytes": 2372,
+    "sha256": "4518fa6eea8e55478656cffcd657c70757e2e8ea071ab2f08e19dce39a4d316e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/reference_runtime.c",
+    "bytes": 46108,
+    "sha256": "0c3e666d5a8cf400776762c2ac3bb2a300897cb964642f3e1caf7d7c0a9fa540"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_312ms_native_backend.c",
+    "bytes": 25235,
+    "sha256": "bd0f8b45a9dd2e6f74e835c91f1e4a9c9d69f62d72c84365a0ee9b8205927f98"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_312ms_native_backend.h",
+    "bytes": 6375,
+    "sha256": "db42394fae58fb75680ca4dedfcdd75c1b99cc4d03f2cc2ed920ea6a9848f696"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_312ms_physical_bridge.c",
+    "bytes": 16197,
+    "sha256": "a4ca66fa734b54a9e80e4ab6445d00d90dbb532e57e3b8232dbd78e3b5869b6e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_312ms_physical_bridge.h",
+    "bytes": 4191,
+    "sha256": "f8d0138a8c761663777c56b5ffefa1316052c983f57aa8f1d4ca5e1058088211"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_312ms_production.c",
+    "bytes": 174150,
+    "sha256": "aae7069171eb4ed3a5e973fd8abc41b8909c2c41ff903f67bc9e2a578f2f920e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_312ms_production.h",
+    "bytes": 26618,
+    "sha256": "f1649b01f963a8016ceaac780ad29cef4a1d98d4c3dbd2908f0e1ba47b87c695"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_312ms_runtime.c",
+    "bytes": 14650,
+    "sha256": "fefdb5c1f7b00a914a087ee4cf67c8d9aaee1c63d706c1039bd7856ab39ffba1"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_312ms_scheduler.c",
+    "bytes": 21387,
+    "sha256": "c7fad4ff9e61be92754857d343b1a751e9399ff26205df552a08ed1139466c7e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_312ms_scheduler.h",
+    "bytes": 10503,
+    "sha256": "9298ad7aa481e8522976ac6eaa0a323543c2eefad1ebf2a7024432c3dd4ef7ea"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_compact_feedback.c",
+    "bytes": 22597,
+    "sha256": "223c5ca263b984ce8568c35a46c77163d0eb03ce96182e9257bc2f4fd1efb9c0"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_paper_physical_policy.c",
+    "bytes": 7487,
+    "sha256": "95a2d87875a5e3defc1bda410caaf54bdca71e17db50c1cb6e548f09dd5f957f"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_paper_physical_policy.h",
+    "bytes": 2910,
+    "sha256": "c1aa49d33f59c68b4fc1124be9d4681b70b5231cb5fbf0dc16484a9a7719f654"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_paper_physical_regret_adapter.c",
+    "bytes": 11787,
+    "sha256": "652c13362c2c3d57b69df8931156982c3d7f2d675ad16576df736d4d62c36497"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_physical_es_reporting.c",
+    "bytes": 11540,
+    "sha256": "98052ef73814fb3f514ea21010a2da3cd10094c415e52f6087a10fe7b38775d2"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_physical_es_reporting.h",
+    "bytes": 2769,
+    "sha256": "96a5f472058090acf880c874d843c12ec94eac950f956b917139b743749b1e1b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_physical_runtime_telemetry.c",
+    "bytes": 27694,
+    "sha256": "0b29efe6c6ac92c6ad1f1e5cff8ca6e860c60420b738a7a0d5c951e33132a389"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_physical_runtime_telemetry.h",
+    "bytes": 4640,
+    "sha256": "17f4fefd1e1fd711577908c61af40f47b6cb2ad3001f63c73a437f115a6f33cb"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed3/firmware/sahin_base/sahin_trigger_window.h",
+    "bytes": 1967,
+    "sha256": "6d213f765eb1c902ecb237fc363fc341093679e8e80bc03d31607ea4b49154ed"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/build_receipt.json",
+    "bytes": 2614,
+    "sha256": "5ee2246ff5b2ac6916d5a0f24688648721733680464d8b69d3d8c8d7587808fd"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/build_hpsr_paper_sensor_ed4/aircomp_ed",
+    "bytes": 586808,
+    "sha256": "b331e25670b18c489aff01c3488861b5d7fe9fb38987d8a838ac8e64892da711"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/ed/epoch.c",
+    "bytes": 91576,
+    "sha256": "7038c0a95deb6ea897d70124ea2197a6a573622a2a69f6d4ba0094601a6fe7de"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/ed/main.c",
+    "bytes": 271306,
+    "sha256": "0bbe160cd36cb03344afe1ea3a1753509f37d5090b31acafe4e0a99a3dcd95c9"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/ed/regret_learning.c",
+    "bytes": 11140,
+    "sha256": "6e14338fb67a673825b4476dc60a03c86614a4bd71af214ca05879ef0cf7de78"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/ed/sahin_312_generated_provision.c",
+    "bytes": 5143,
+    "sha256": "38ad07e6189735374fee03663e70d79cbf6ff2dff230873ff410793bd39ee7a6"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/es/main.c",
+    "bytes": 350639,
+    "sha256": "0e265c17d46cd59548243887099312051e2af7b7e8c223cf78081ce85c6f7b0b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/hpsr_known_sensor.c",
+    "bytes": 15052,
+    "sha256": "4e7ce5f04f3b3411b003b807ac13c752bb9633ffe3fe8d30424f6fa46cc1ce85"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/hpsr_known_sensor.h",
+    "bytes": 2877,
+    "sha256": "2604d5d396fd152e0b67934603bf6c86b60f40f9b8253465a5c220f2f06fd9cf"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/hpsr_known_sensor_full_air.c",
+    "bytes": 8048,
+    "sha256": "eafbc060c619167f74237e385b4df3d1dab1342d3e822de33cda038096423db4"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/hpsr_known_sensor_full_air.h",
+    "bytes": 1786,
+    "sha256": "82447184ff872a3c4010565ce993f259a99f81a2737f9315a2f5dc241c800b64"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/hpsr_known_sensor_transport_seam.c",
+    "bytes": 6965,
+    "sha256": "281984338480b88407bffa4c48dea06e8d246e821f55f6c863cb88ed1981b250"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/hpsr_known_sensor_transport_seam.h",
+    "bytes": 2372,
+    "sha256": "4518fa6eea8e55478656cffcd657c70757e2e8ea071ab2f08e19dce39a4d316e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/reference_runtime.c",
+    "bytes": 46108,
+    "sha256": "0c3e666d5a8cf400776762c2ac3bb2a300897cb964642f3e1caf7d7c0a9fa540"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_312ms_native_backend.c",
+    "bytes": 25235,
+    "sha256": "bd0f8b45a9dd2e6f74e835c91f1e4a9c9d69f62d72c84365a0ee9b8205927f98"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_312ms_native_backend.h",
+    "bytes": 6375,
+    "sha256": "db42394fae58fb75680ca4dedfcdd75c1b99cc4d03f2cc2ed920ea6a9848f696"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_312ms_physical_bridge.c",
+    "bytes": 16197,
+    "sha256": "a4ca66fa734b54a9e80e4ab6445d00d90dbb532e57e3b8232dbd78e3b5869b6e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_312ms_physical_bridge.h",
+    "bytes": 4191,
+    "sha256": "f8d0138a8c761663777c56b5ffefa1316052c983f57aa8f1d4ca5e1058088211"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_312ms_production.c",
+    "bytes": 174150,
+    "sha256": "aae7069171eb4ed3a5e973fd8abc41b8909c2c41ff903f67bc9e2a578f2f920e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_312ms_production.h",
+    "bytes": 26618,
+    "sha256": "f1649b01f963a8016ceaac780ad29cef4a1d98d4c3dbd2908f0e1ba47b87c695"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_312ms_runtime.c",
+    "bytes": 14650,
+    "sha256": "fefdb5c1f7b00a914a087ee4cf67c8d9aaee1c63d706c1039bd7856ab39ffba1"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_312ms_scheduler.c",
+    "bytes": 21387,
+    "sha256": "c7fad4ff9e61be92754857d343b1a751e9399ff26205df552a08ed1139466c7e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_312ms_scheduler.h",
+    "bytes": 10503,
+    "sha256": "9298ad7aa481e8522976ac6eaa0a323543c2eefad1ebf2a7024432c3dd4ef7ea"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_compact_feedback.c",
+    "bytes": 22597,
+    "sha256": "223c5ca263b984ce8568c35a46c77163d0eb03ce96182e9257bc2f4fd1efb9c0"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_paper_physical_policy.c",
+    "bytes": 7487,
+    "sha256": "95a2d87875a5e3defc1bda410caaf54bdca71e17db50c1cb6e548f09dd5f957f"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_paper_physical_policy.h",
+    "bytes": 2910,
+    "sha256": "c1aa49d33f59c68b4fc1124be9d4681b70b5231cb5fbf0dc16484a9a7719f654"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_paper_physical_regret_adapter.c",
+    "bytes": 11787,
+    "sha256": "652c13362c2c3d57b69df8931156982c3d7f2d675ad16576df736d4d62c36497"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_physical_es_reporting.c",
+    "bytes": 11540,
+    "sha256": "98052ef73814fb3f514ea21010a2da3cd10094c415e52f6087a10fe7b38775d2"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_physical_es_reporting.h",
+    "bytes": 2769,
+    "sha256": "96a5f472058090acf880c874d843c12ec94eac950f956b917139b743749b1e1b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_physical_runtime_telemetry.c",
+    "bytes": 27694,
+    "sha256": "0b29efe6c6ac92c6ad1f1e5cff8ca6e860c60420b738a7a0d5c951e33132a389"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_physical_runtime_telemetry.h",
+    "bytes": 4640,
+    "sha256": "17f4fefd1e1fd711577908c61af40f47b6cb2ad3001f63c73a437f115a6f33cb"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/ed4/firmware/sahin_base/sahin_trigger_window.h",
+    "bytes": 1967,
+    "sha256": "6d213f765eb1c902ecb237fc363fc341093679e8e80bc03d31607ea4b49154ed"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/build_receipt.json",
+    "bytes": 2607,
+    "sha256": "d3db136d58c91543359e0e1dd2b00c87ac822044629b665cbc4d7c675db7cd6f"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/build_hpsr_paper_sensor_es/aircomp_es",
+    "bytes": 624168,
+    "sha256": "ff4390a53a196b58cf9c235f939f5509d5f55602991395d647163b5575c88054"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/ed/epoch.c",
+    "bytes": 91576,
+    "sha256": "7038c0a95deb6ea897d70124ea2197a6a573622a2a69f6d4ba0094601a6fe7de"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/ed/main.c",
+    "bytes": 271306,
+    "sha256": "0bbe160cd36cb03344afe1ea3a1753509f37d5090b31acafe4e0a99a3dcd95c9"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/ed/regret_learning.c",
+    "bytes": 11140,
+    "sha256": "6e14338fb67a673825b4476dc60a03c86614a4bd71af214ca05879ef0cf7de78"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/es/main.c",
+    "bytes": 350639,
+    "sha256": "0e265c17d46cd59548243887099312051e2af7b7e8c223cf78081ce85c6f7b0b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/es/sahin_312_generated_provision.c",
+    "bytes": 6459,
+    "sha256": "b53f3fe1688b8f463429731774a16df7a46ad069e950ba9759739f3d9254796b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/hpsr_known_sensor.c",
+    "bytes": 15052,
+    "sha256": "4e7ce5f04f3b3411b003b807ac13c752bb9633ffe3fe8d30424f6fa46cc1ce85"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/hpsr_known_sensor.h",
+    "bytes": 2877,
+    "sha256": "2604d5d396fd152e0b67934603bf6c86b60f40f9b8253465a5c220f2f06fd9cf"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/hpsr_known_sensor_full_air.c",
+    "bytes": 8048,
+    "sha256": "eafbc060c619167f74237e385b4df3d1dab1342d3e822de33cda038096423db4"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/hpsr_known_sensor_full_air.h",
+    "bytes": 1786,
+    "sha256": "82447184ff872a3c4010565ce993f259a99f81a2737f9315a2f5dc241c800b64"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/hpsr_known_sensor_transport_seam.c",
+    "bytes": 6965,
+    "sha256": "281984338480b88407bffa4c48dea06e8d246e821f55f6c863cb88ed1981b250"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/hpsr_known_sensor_transport_seam.h",
+    "bytes": 2372,
+    "sha256": "4518fa6eea8e55478656cffcd657c70757e2e8ea071ab2f08e19dce39a4d316e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/reference_runtime.c",
+    "bytes": 46108,
+    "sha256": "0c3e666d5a8cf400776762c2ac3bb2a300897cb964642f3e1caf7d7c0a9fa540"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_312ms_native_backend.c",
+    "bytes": 25235,
+    "sha256": "bd0f8b45a9dd2e6f74e835c91f1e4a9c9d69f62d72c84365a0ee9b8205927f98"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_312ms_native_backend.h",
+    "bytes": 6375,
+    "sha256": "db42394fae58fb75680ca4dedfcdd75c1b99cc4d03f2cc2ed920ea6a9848f696"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_312ms_physical_bridge.c",
+    "bytes": 16197,
+    "sha256": "a4ca66fa734b54a9e80e4ab6445d00d90dbb532e57e3b8232dbd78e3b5869b6e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_312ms_physical_bridge.h",
+    "bytes": 4191,
+    "sha256": "f8d0138a8c761663777c56b5ffefa1316052c983f57aa8f1d4ca5e1058088211"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_312ms_production.c",
+    "bytes": 174150,
+    "sha256": "aae7069171eb4ed3a5e973fd8abc41b8909c2c41ff903f67bc9e2a578f2f920e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_312ms_production.h",
+    "bytes": 26618,
+    "sha256": "f1649b01f963a8016ceaac780ad29cef4a1d98d4c3dbd2908f0e1ba47b87c695"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_312ms_runtime.c",
+    "bytes": 14650,
+    "sha256": "fefdb5c1f7b00a914a087ee4cf67c8d9aaee1c63d706c1039bd7856ab39ffba1"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_312ms_scheduler.c",
+    "bytes": 21387,
+    "sha256": "c7fad4ff9e61be92754857d343b1a751e9399ff26205df552a08ed1139466c7e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_312ms_scheduler.h",
+    "bytes": 10503,
+    "sha256": "9298ad7aa481e8522976ac6eaa0a323543c2eefad1ebf2a7024432c3dd4ef7ea"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_compact_feedback.c",
+    "bytes": 22597,
+    "sha256": "223c5ca263b984ce8568c35a46c77163d0eb03ce96182e9257bc2f4fd1efb9c0"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_paper_physical_policy.c",
+    "bytes": 7487,
+    "sha256": "95a2d87875a5e3defc1bda410caaf54bdca71e17db50c1cb6e548f09dd5f957f"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_paper_physical_policy.h",
+    "bytes": 2910,
+    "sha256": "c1aa49d33f59c68b4fc1124be9d4681b70b5231cb5fbf0dc16484a9a7719f654"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_paper_physical_regret_adapter.c",
+    "bytes": 11787,
+    "sha256": "652c13362c2c3d57b69df8931156982c3d7f2d675ad16576df736d4d62c36497"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_physical_es_reporting.c",
+    "bytes": 11540,
+    "sha256": "98052ef73814fb3f514ea21010a2da3cd10094c415e52f6087a10fe7b38775d2"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_physical_es_reporting.h",
+    "bytes": 2769,
+    "sha256": "96a5f472058090acf880c874d843c12ec94eac950f956b917139b743749b1e1b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_physical_runtime_telemetry.c",
+    "bytes": 27694,
+    "sha256": "0b29efe6c6ac92c6ad1f1e5cff8ca6e860c60420b738a7a0d5c951e33132a389"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_physical_runtime_telemetry.h",
+    "bytes": 4640,
+    "sha256": "17f4fefd1e1fd711577908c61af40f47b6cb2ad3001f63c73a437f115a6f33cb"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/es/firmware/sahin_base/sahin_trigger_window.h",
+    "bytes": 1967,
+    "sha256": "6d213f765eb1c902ecb237fc363fc341093679e8e80bc03d31607ea4b49154ed"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/build_v2/result.json",
+    "bytes": 8531,
+    "sha256": "d31aa583560b8863b2cfb4566d83a8acf218de660186871303be0a777b1a7cee"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/plan/INDEPENDENT_PLAN_AND_POLICY_REVIEW.json",
+    "bytes": 3284,
+    "sha256": "ed0989cd4cfae2641054aa83d8c6591352aeebf1cc019784ef9dd3fc011d4b7d"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/plan/ROOT_PLAN_AND_POLICY_REVIEW.json",
+    "bytes": 398,
+    "sha256": "0f05aa170cd3fcb79a85269d65f67a12f2cd0ddb8d3364b901ca1930a19afa18"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/plan/learning_plan.json",
+    "bytes": 3507,
+    "sha256": "6a1951df2b9925c95e3425204c966ee952ff49e268a1bc3928ae30ef84de9f51"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/plan/quality_policy_paper_sensor_learning.json",
+    "bytes": 3768,
+    "sha256": "24e31f3f64bb4700e58bbb8f3368e618efb81fbba974942a51afe40df47b3aba"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/runtime_package_v2/flight_manifest.json",
+    "bytes": 10873,
+    "sha256": "2da828bfd4c487722b088328a80ac9b1b611467fcece9c90569c75823941b650"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/runtime_package_v2/runtime_package.json",
+    "bytes": 4586,
+    "sha256": "1dbf71e48a3897bca22d1c2de25ea9ab784bf294b0ead68d398b9ea3c8acbce7"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/ROOT_ALLOCATION_INTENT.json",
+    "bytes": 1767,
+    "sha256": "7e44597fa6a2ae211805dab51fc27934c63980ad7069bc307f0b088601352370"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/ROOT_ALLOCATION_RESULT.json",
+    "bytes": 1737,
+    "sha256": "1ab866d1eff905f09802809ed83ffbee76ced3276c6635de4edbcdc10c1f3fd8"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/allocation.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/allocation.stdout",
+    "bytes": 513,
+    "sha256": "cc6b4fbdc7a513260b4153f312a9f40b888ec9cdec63cd6ec7819d7bcfed81a5"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/registry_after.json",
+    "bytes": 226935,
+    "sha256": "103322f02f9214d8f543a56b30a60a418806894e0c9819c84d8ddac82825136b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/registry_before.json",
+    "bytes": 225796,
+    "sha256": "39c5b8cbe06b482eab1b771707a5024af367767dc7c2ddf9cafcaa99cb37682d"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/session/manifest.json",
+    "bytes": 3101,
+    "sha256": "555dd606704b53db686e9d5bc72b6987e3b15817a64f423494ffac34192f899f"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/session/negotiation.json",
+    "bytes": 1342,
+    "sha256": "814650b50ac0a5d7613654bc8449112529dc3bf2bd148a0115552ee639963c39"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/session/nodes/ed1.json",
+    "bytes": 980,
+    "sha256": "54cade56cbd683752fadec9d7a2c61b566590fffa84ae83b526537be01bcf16f"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/session/nodes/ed2.json",
+    "bytes": 980,
+    "sha256": "75c06a0f4794e58e710473039c19bf14774d2d4cd839c30edf64214684796f25"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/session/nodes/ed3.json",
+    "bytes": 980,
+    "sha256": "39b9f4ff4929cbf5a603349a2af81e5ded10bb029c1f17cf3b054a0cf3242efa"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/session/nodes/ed4.json",
+    "bytes": 980,
+    "sha256": "3e2ac3522039f2cca16772a2b55ac52db2a1c99d460a080253c5b174922e08c1"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/session/nodes/es.json",
+    "bytes": 979,
+    "sha256": "1b84f40c2caadc657c9f8bbe9f7f1a9954693aeb8190a8291a2f987e018b5acd"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_20260915/b01_mu50/session0198/session_request.json",
+    "bytes": 3210,
+    "sha256": "7ac495696efdc8db26583b598bea5d69be7af51cffe810de493744cfddac9e07"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/.probe/rx12/mu_sweep_150_identity_20260915/result.json",
+    "bytes": 4729,
+    "sha256": "eb8031a2ee7a68a21a8c1528b06b39c206a31ca628f08e9cc36fcc614d2dfbdb"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/candidate/rx_dma_v12/rf_preparation/session/README.md",
+    "bytes": 2297,
+    "sha256": "725eddaf1792d355051f9d597d2a2be17a00c43389baa5aea69936aa5376f087"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/candidate/rx_dma_v12/rf_preparation/session/build_major13_fleet.py",
+    "bytes": 13460,
+    "sha256": "4483b60b2679e382ab83daa3b981c3a867f851fa3f88232c23dda8a35aa8e1bf"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/candidate/rx_dma_v12/rf_preparation/session/common.py",
+    "bytes": 5499,
+    "sha256": "f99b494d067cb311171e32c89cf96ca2431aec3ff00c9d825dee07b1af3cbf4c"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/candidate/rx_dma_v12/rf_preparation/session/make_major13_build_request.py",
+    "bytes": 12050,
+    "sha256": "105089a1592425d87cc996f2035bd17cb65e111ae943c255cd1a93da9bc48053"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/candidate/rx_dma_v12/rf_preparation/session/prepare_major13_session.py",
+    "bytes": 6484,
+    "sha256": "780351583db3997ba797dad30b795e083c6ed5a18f2efa906b01a3a78adef5e9"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/candidate/rx_dma_v12/rf_preparation/session/review_major13_fleet.py",
+    "bytes": 6464,
+    "sha256": "d6ef0c2e6c9ed634bf56667810119b103b645a0e453fd686781137f8de95824b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/candidate/rx_dma_v12/rf_preparation/session/root_allocate_major13_once.py",
+    "bytes": 4990,
+    "sha256": "64984c3e6910d3a99a714e1bdaf8442db11f5afcb6429310d16c48811601c77a"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/FIXED_ENVIRONMENT_OFFLINE_VALIDATION_V1.json",
+    "bytes": 2258,
+    "sha256": "9978966a84913c8f5ffe77ebf6d6e279084a48b5ef87440b7e3d0a7432a7e719"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/FIXED_ENVIRONMENT_OFFLINE_VALIDATION_V1_FINAL.json",
+    "bytes": 2668,
+    "sha256": "a05eed601102029ad1ccb0816ffc1b402ca9cf422829e65d9c4c51827a8cfa34"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/FIXED_ENVIRONMENT_OFFLINE_VALIDATION_V1_FINAL_REVIEWED.json",
+    "bytes": 2730,
+    "sha256": "faa8a1f98a7c530dd84710b4af2ff9a49b87c6488ab59e8ff3cfbb97ebf4b34d"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/FIXED_ENVIRONMENT_OFFLINE_VALIDATION_V1_FINITE_FINAL.json",
+    "bytes": 2683,
+    "sha256": "24a594f77e449bbc4bd1cc0a9faf41b7667d564edaf2de8465b75c82074bf06e"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/INDEPENDENT_DEFAULT_VERIFIER_SOURCE_REVIEW_V1.json",
+    "bytes": 4407,
+    "sha256": "2074482a9f6019ea2969101d901bcd05dcf978d1fa9c667294033ea48b2126ed"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/INDEPENDENT_FIXED_ENVIRONMENT_SOURCE_REVIEW_V1.json",
+    "bytes": 3580,
+    "sha256": "6d0a9d34deeee56cd029ff9e07d7e0df8c09629f354ac3e59a7c9410a245b5c3"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/INDEPENDENT_VERIFIER_VALIDATION_V1.json",
+    "bytes": 2298,
+    "sha256": "497031e2e85538a5665b726740c5f6feb5340176ac7df5ce2337ec71be01a068"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/analyze_fixed_pure_environment_v1.py",
+    "bytes": 7090,
+    "sha256": "1682480284a12da7e633f2e433c5717e5b0f0f75a89657f3a47ce400980a27b8"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/independent_final_preparation_fixture/initial_identity/result.json",
+    "bytes": 4745,
+    "sha256": "0ee62ad867a1388af6a3eda800393f91c0e63f487f8876c827e4fcdac8315b86"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/independent_final_preparation_fixture/plan/INDEPENDENT_PLAN_AND_POLICY_REVIEW.json",
+    "bytes": 2088,
+    "sha256": "e12094ab6447539d3e43b549c4113e8f47ae1728123f93d3919a4e1bda59aa39"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/independent_final_preparation_fixture/plan/ROOT_PLAN_AND_POLICY_REVIEW.json",
+    "bytes": 480,
+    "sha256": "7605a3a4f86deea815767de9137b4b0f861395e44a1714a466073cc1bee9b1a1"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/independent_final_preparation_fixture/plan/learning_plan.json",
+    "bytes": 3619,
+    "sha256": "a7b490f12e067f16899efdc65ce963de2122d8626e5ef980a379997514e22e8d"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/independent_final_preparation_fixture/plan/quality_policy_paper_sensor_learning.json",
+    "bytes": 3896,
+    "sha256": "93e91eb9c1f462e65bd39e0a7b6a4933ba883d21130684ea4488fdc17c2d366c"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/independent_retained_package_check_final/ACTUAL_RETAINED_PACKAGE_CHECKS.json",
+    "bytes": 5998,
+    "sha256": "5fc10802e2b9b6dd870506f4f83f579e86499ae2a5a09aa02e391a5e28c99177"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/independent_retained_package_check_final/runtime_package_v2/INDEPENDENT_DRY_RUN.json",
+    "bytes": 1496,
+    "sha256": "924ed22930a3fd54e911d798ba85a64f21ffa5df54ea6864192a13188e811801"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/independent_retained_package_check_final/runtime_package_v2/INDEPENDENT_SMOKE.json",
+    "bytes": 1244,
+    "sha256": "afffc849a01826cf544576baec769861ba742e9aa2f853d9c23c9949ac81627a"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/independent_retained_package_check_final/runtime_package_v2/runtime_package.json",
+    "bytes": 4586,
+    "sha256": "1dbf71e48a3897bca22d1c2de25ea9ab784bf294b0ead68d398b9ea3c8acbce7"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/independent_review_retained_package_v1.py",
+    "bytes": 4768,
+    "sha256": "bf4987b3cb699986744e7577283a2ca5f47bf2132511a5bf730b10ca7e6bf95b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/offline_preparation_fixture/initial_identity/result.json",
+    "bytes": 4745,
+    "sha256": "0ee62ad867a1388af6a3eda800393f91c0e63f487f8876c827e4fcdac8315b86"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/offline_preparation_fixture/plan/INDEPENDENT_PLAN_AND_POLICY_REVIEW.json",
+    "bytes": 1751,
+    "sha256": "2e613e1f0660af2c0203e8b87a8f5c53e4f615bb11483cfab837e80ec6b350b7"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/offline_preparation_fixture/plan/ROOT_PLAN_AND_POLICY_REVIEW.json",
+    "bytes": 470,
+    "sha256": "2c2a1f4a16c8b00e4c437363414cf88d07c3a70e0bd00dc13419d6af19647ac1"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/offline_preparation_fixture/plan/learning_plan.json",
+    "bytes": 3608,
+    "sha256": "1190f196ddac8ff54321e0e2db2ddb403184eb2ef91e16526b71e6a7315b39d3"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/offline_preparation_fixture/plan/quality_policy_paper_sensor_learning.json",
+    "bytes": 3866,
+    "sha256": "42c2efac8351a77d8c3256994eeb015d2d0dad32a5d64c5225705f41f77a0fc1"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/test_fixed_pure_environment_v1.py",
+    "bytes": 10420,
+    "sha256": "4f69c41ae77fd426ffbb4572cbeaca14cca674769b28af381ecefeb7af17c296"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/test_verify_fixed_pure_environment_v1.py",
+    "bytes": 3202,
+    "sha256": "96d840d00d00f91eb71947ba78b813ea8354525fa4c2b2170e5f96e9920dee14"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/fixed_pure_environments_2026-09-16/verify_fixed_pure_environment_v1.py",
+    "bytes": 16038,
+    "sha256": "f90d272a575e12022c826dae2fe1096194b2b49d147334d18e5b0e5542987aa0"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_150_rf_2026-09-15/INDEPENDENT_FIRMWARE_REVIEW.json",
+    "bytes": 10823,
+    "sha256": "d209bdf0035accc08f156c86569ce47eb3d2eab560d526ff2b30d364b57281af"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_150_rf_2026-09-15/allocate_cell.py",
+    "bytes": 3527,
+    "sha256": "9113071353f4f7de82a1bb7db4b52f7b196f4184e501b5c17ee0e463f38c361a"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_150_rf_2026-09-15/campaign.py",
+    "bytes": 11765,
+    "sha256": "80da8273131617d649a3713a018ce491eccea2c265e0d75203d3e5457059ac73"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_150_rf_2026-09-15/campaign_design.json",
+    "bytes": 11109,
+    "sha256": "5e40a6a4baeccd9ddd45b6db911b0be1fde8b14b5d99a45ff0f3ec09939d9b18"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_150_rf_2026-09-15/campaign_proposal.json",
+    "bytes": 2169,
+    "sha256": "b757bdcfa6e90d7fdfe81cec630025d25b9e00f2628892d1f5b1e70a55486317"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/PENDING_COMPLETION_VALIDATION.json",
+    "bytes": 8034,
+    "sha256": "a97d115d43925ae656f461974987590b59e2c3f35c5a640a7520a41b3f6a284b"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/README.md",
+    "bytes": 2895,
+    "sha256": "7c42f9f63f8ca5b96bb755ef379da1e9f03f0d7e99a056dd7b1ec8464359dc6a"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/native_build.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/native_build.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/native_completion_test",
+    "bytes": 17328,
+    "sha256": "7099317948ca2633958433ec5a55ef65dbfd71392559b7e0c7935894458cbfe4"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/native_completion_test.c",
+    "bytes": 9239,
+    "sha256": "4f40cb92e702e84c6b0235508f8a48c303c89a779d4ffb67e7e82c0eae123c33"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/native_run.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/native_run.stdout",
+    "bytes": 188,
+    "sha256": "a15abfdb162497c79a2d70235869eca6b45149ca6f57a83daeefaafbb25fbc01"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/production_build.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/production_build.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/production_completion_test",
+    "bytes": 34728,
+    "sha256": "09cb0b289a22be09bb8a590022b17e32edaf95afbb387e38a88be82237bfbafa"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/production_completion_test.c",
+    "bytes": 27657,
+    "sha256": "51156ff979870efc02ad2a8b8d2a2d0790c43d50409fd8128dc75068729cde71"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/production_run.stderr",
+    "bytes": 6285,
+    "sha256": "01182079ea8eecd4f153f9f6a8e9934f787a690bdc1a7a84d24dd5fcf898d363"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/production_run.stdout",
+    "bytes": 193,
+    "sha256": "136d5b0f9e6d96e76997fb107546d2e60bab45fededacbb9b8c2ca280ec346c6"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/production_syntax.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/production_syntax.stdout",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/v4_pending_completion/v3_to_v4.patch",
+    "bytes": 8670,
+    "sha256": "bd30ca6f3fb05f688ff38dbe11a9c788d773799b2c0ed2f6de43eaec22cc63db"
+  },
+  {
+    "path": "/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto/docs/results/mu_sweep_stability_audit_2026-09-15/validate_pending_completion.py",
+    "bytes": 18291,
+    "sha256": "6b78b5811d44d41aa460248c73bedbc1238f14a52877982bf5f1f234d0f95a83"
   }
 ]

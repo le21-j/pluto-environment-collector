@@ -1,5 +1,6 @@
 {
   "runtime.tar.gz": "eed19ee04fda926eebffc7a5dc490cf1d855c23f2ef5793a203f4ad951469510",
   "toolchain.tar.gz": "18715a527b0b3463222b9372a4ab2373afd51b7c85e7a1921a75001f1c569e34",
-  "preparation-support.tar.gz": "b1e533aafaa61fbb03b6ae6c9e21c25d61303456a16198608f920b2a073a4197"
+  "preparation-support.tar.gz": "b1e533aafaa61fbb03b6ae6c9e21c25d61303456a16198608f920b2a073a4197",
+  "fixed-pure-support.tar.gz": "179445f0d9638de36ef5dc6c644d78a61b44b6161315a3834e30b1e5408b33b4"
 }

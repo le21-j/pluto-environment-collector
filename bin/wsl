@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+"""Translate frozen Windows build launch syntax to native Linux execution."""
+import os,sys
+args=sys.argv[1:];cwd=None
+while args:
+ if args[0]=='-d':args=args[2:]
+ elif args[0]=='--cd':cwd=args[1];args=args[2:]
+ elif args[0] in ('--exec','--'):args=args[1:];break
+ else:raise SystemExit('Unsupported frozen wsl command: '+args[0])
+if not args:raise SystemExit('Missing command')
+if cwd:os.chdir(cwd)
+os.execvp(args[0],args)
