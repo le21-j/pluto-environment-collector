@@ -31,7 +31,7 @@ argv=['proot','-b',str(runtime/'mnt/c')+':/mnt/c','-b',str(HERE)+':/collector']
 for path in ['home/jayden/armv7-eabihf--glibc--stable','home/jayden/.cache/aircomp_pluto_link']:
  argv+=['-b',str(runtime/path)+':/'+path]
 argv+=['-w','/collector']
-env=dict(os.environ,MPLBACKEND='Agg',PYTHONNOUSERSITE='1',PATH='/collector/.venv/bin:/collector/bin:'+os.environ['PATH'])
+env=dict(os.environ,MPLBACKEND='Agg',PYTHONNOUSERSITE='1',PLUTO_LINK_DIR='/home/jayden/.cache/aircomp_pluto_link',PATH='/collector/.venv/bin:/collector/bin:'+os.environ['PATH'])
 if a.check:
  for script in ['run_fixed_pure_environment_v1.py']:
   subprocess.run(argv+['/collector/.venv/bin/python',ROOT+'/candidate/rx_dma_v12/rf_live_support/'+script,'--help'],env=env,check=True,stdout=subprocess.DEVNULL)

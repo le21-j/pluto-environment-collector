@@ -1,5 +1,5 @@
 """Run inside the portable path mappings. Never calls device methods."""
-import hashlib,importlib.util,json,pathlib,subprocess,tempfile
+import hashlib,importlib.util,json,pathlib,subprocess,tempfile,os
 root=pathlib.Path('/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto')
 transport=root/'candidate/rx_dma_v12/rf_preparation/runtime/root_transport_major13_v2.py'
 spec=importlib.util.spec_from_file_location('portable_transport_check',transport)
@@ -10,6 +10,10 @@ flight['procscan_review']={'path':str(review),'bytes':review.stat().st_size,'sha
 module.RootTransport(flight,pathlib.Path(flight['stage1_prepare_node']['path']),pathlib.Path(flight['pty_ssh']['path']))
 compiler='/home/jayden/armv7-eabihf--glibc--stable/bin/arm-buildroot-linux-gnueabihf-gcc'
 with tempfile.TemporaryDirectory(prefix='pluto-portable-compile-') as temporary:
+ link='/home/jayden/.cache/aircomp_pluto_link'
+ if os.environ.get('PLUTO_LINK_DIR')!=link:raise ValueError('Portable build include path is not configured')
+ firmware=root/'.probe/rx12/controlled_rf_qualification_v1/repeat027_v1/build/fleet_candidate_v1/es/firmware'
+ subprocess.run([compiler,'-std=c11','-D_POSIX_C_SOURCE=200809L','-O2','-Werror','-I'+link,'-I'+str(firmware/'common'),'-c',str(firmware/'common/pluto_io.c'),'-o',str(pathlib.Path(temporary)/'pluto_io.o')],check=True)
  binary=pathlib.Path(temporary)/'helper.arm'
  source=root/'candidate/rx_dma_v12/rf_live_support/objective_models_v1/objective_fixed_loop_file_helper_v1.c'
  subprocess.run([compiler,'-std=c99','-O2',str(source),'-L/home/jayden/.cache/aircomp_pluto_link','-l:libiio.so.0','-l:libad9361.so.0','-lm','-lpthread','-o',str(binary)],check=True)
