@@ -4,12 +4,11 @@ Collect **minimum MSE** and **maximum utility** fixed-action models, with three 
 
 ## Laptop setup
 
-Requires **x86-64 Ubuntu 22.04**, either native Linux or Windows with Ubuntu 22.04 in WSL2, internet for installation, and at least **3 GB free for setup**, plus storage for collected raw data. Clone inside your Ubuntu home folder for faster file access. Run the following inside Ubuntu, not PowerShell. GitHub access to this private repository is required; authenticate `gh` with the account granted access.
+Requires **x86-64 Ubuntu 22.04**, either native Linux or Windows with Ubuntu 22.04 in WSL2, internet for installation, and at least **3 GB free for setup**, plus storage for collected raw data. Clone inside your Ubuntu home folder for faster file access. Run the following inside Ubuntu, not PowerShell. This repository and its release downloads are public; no GitHub account or GitHub CLI is needed.
 
 ```bash
-sudo apt-get update && sudo apt-get install -y git gh
-gh auth login
-gh repo clone le21-j/pluto-environment-collector
+sudo apt-get update && sudo apt-get install -y git
+git clone https://github.com/le21-j/pluto-environment-collector.git
 cd pluto-environment-collector
 bash setup.sh
 ```
