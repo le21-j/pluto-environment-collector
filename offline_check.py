@@ -1,6 +1,14 @@
 """Run inside the portable path mappings. Never calls device methods."""
 import hashlib,importlib.util,json,pathlib,subprocess,tempfile,os
 root=pathlib.Path('/mnt/c/Users/Jayden Le/Desktop/aircomp-regret-pluto')
+# Exercise the exact retained Windows-path reference used by runtime packaging.
+canonical='Users/Jayden Le/.codex/visualizations/2026/09/09/01a083fa-a885-7563-aacc-5fbfb33e1679/worktrees/mu-graphs/candidate/scripts/sahin_compact_session_manifest.py'
+windows=pathlib.Path('C:/'+canonical).resolve()
+native=pathlib.Path('/mnt/c')/canonical
+if not windows.is_file() or windows.is_symlink() or windows.read_bytes()!=native.read_bytes():raise ValueError('Retained Windows artifact path is not mapped')
+spec=importlib.util.spec_from_file_location('portable_packaging_common',root/'candidate/rx_dma_v12/rf_preparation/session/common.py')
+packaging=importlib.util.module_from_spec(spec);spec.loader.exec_module(packaging)
+if packaging.ref(windows)['sha256']!=packaging.ref(native)['sha256']:raise ValueError('Packaging artifact reference mismatch')
 transport=root/'candidate/rx_dma_v12/rf_preparation/runtime/root_transport_major13_v2.py'
 spec=importlib.util.spec_from_file_location('portable_transport_check',transport)
 module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)

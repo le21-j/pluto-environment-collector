@@ -27,7 +27,8 @@ except BlockingIOError:raise SystemExit('Another collection is active in this ch
 if a.execute:
  import restore_fpga
  restore_fpga.restore_all(HERE)
-argv=['proot','-b',str(runtime/'mnt/c')+':/mnt/c','-b',str(HERE)+':/collector']
+argv=['proot','-b',str(runtime/'mnt/c')+':/mnt/c','-b',str(HERE)+':/collector',
+      '-b',str(runtime/'mnt/c')+':/collector/C:']
 for path in ['home/jayden/armv7-eabihf--glibc--stable','home/jayden/.cache/aircomp_pluto_link']:
  argv+=['-b',str(runtime/path)+':/'+path]
 argv+=['-w','/collector']
