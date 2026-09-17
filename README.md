@@ -4,6 +4,28 @@ Collect **minimum MSE** and **maximum utility** fixed-action models, with three 
 
 ## Laptop setup
 
+### Windows / PowerShell
+
+This collector uses Linux tools; Git Bash alone is insufficient. Check whether Ubuntu is available:
+
+```powershell
+wsl --list --verbose
+```
+
+If Ubuntu 22.04 is missing, installing it requires the laptop owner's permission and may require administrator access and a restart: `wsl --install -d Ubuntu-22.04`. Open Ubuntu once to finish creating its Linux user. If WSL cannot be installed on the borrowed laptop, use a laptop that already has Ubuntu/WSL2.
+
+From PowerShell in the cloned repository:
+
+```powershell
+git pull
+powershell -NoProfile -ExecutionPolicy Bypass -File .\run_windows.ps1 -Mode Setup
+powershell -NoProfile -ExecutionPolicy Bypass -File .\run_windows.ps1 -Mode Collect -Name "Corridor"
+```
+
+The launcher runs the Linux commands through Ubuntu; setup may request your Linux user's sudo password. Use `-Distribution Ubuntu` if that is the installed distribution name and it is Ubuntu 22.04. Windows line endings in older setup checkouts are repaired automatically.
+
+### Ubuntu terminal
+
 Requires **x86-64 Ubuntu 22.04**, either native Linux or Windows with Ubuntu 22.04 in WSL2, internet for installation, and at least **3 GB free for setup**, plus storage for collected raw data. Clone inside your Ubuntu home folder for faster file access. Run the following inside Ubuntu, not PowerShell. This repository and its release downloads are public; no GitHub account or GitHub CLI is needed.
 
 ```bash

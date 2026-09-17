@@ -12,5 +12,7 @@ for asset in runtime.tar.gz toolchain.tar.gz preparation-support.tar.gz; do
 done
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
-.venv/bin/python bootstrap.py
+if [ ! -d .runtime ]; then
+ .venv/bin/python bootstrap.py
+fi
 python3 collect.py --check
