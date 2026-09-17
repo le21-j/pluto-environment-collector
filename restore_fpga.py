@@ -58,6 +58,58 @@ def assets(root):
  p=root/'fpga/system_top_major13.bit.bin'
  if digest(p.read_bytes())!=SHA or p.stat().st_size!=2083744:raise RuntimeError('Incorrect manager payload')
  return manifest
+
+def prepare_clock(t,node,snapshot):
+ values=kv(snapshot['raw']);clock=single(values,'FCLK3').upper()
+ if clock=='0X00300400':return snapshot
+ # Only the observed persistent boot divider is eligible; never alter the PLL.
+ command=SNAPSHOT+f'''test "$(cat /etc/serial)" = {snapshot['serial']}
+test "$(cat /proc/sys/kernel/random/boot_id)" = {snapshot['boot']}
+test "$(devmem 0xF80001A0 32)" = 0x00101800
+test "$(devmem 0xF8000108 32)" = 0x0001E000
+'''+r'''for proc in /proc/[0-9]*; do
+ test "${proc##*/}" != "$$" || continue
+ name=$(cat "$proc/comm" 2>/dev/null) || continue
+ case "$name" in aircomp_*|ring_probe|arc3_*prepare*) exit 17;; esac
+ cmd=$(tr '\000' ' ' < "$proc/cmdline" 2>/dev/null) || continue
+ case "$cmd" in *lab_v13_*|*rx12_v13_*load*) exit 17;; esac
+done
+command -v fuser >/dev/null
+dds_count=0
+for path in /sys/bus/iio/devices/iio:device*; do
+ test -r "$path/name" || continue
+ test "$(cat "$path/name")" = cf-ad9361-dds-core-lpc || continue
+ dds_count=$((dds_count+1))
+ count=0
+ for attr in "$path"/out_altvoltage[0-9]*_scale; do
+  test -r "$attr"; test "$(cat "$attr")" = 0.000000; count=$((count+1))
+ done
+ test "$count" -eq 4
+done
+test "$dds_count" -eq 1
+for device in /dev/uio* /dev/iio:device*; do
+ test -e "$device" || continue
+ test -r "$device"
+ if fuser "$device" >/dev/null 2>&1; then exit 17; fi
+done
+lock=$(devmem 0xF800000C 32)
+case "$lock" in 0x00000000|0x00000001) ;; *) exit 17;; esac
+restore_lock() { if [ "$lock" = 0x00000001 ]; then devmem 0xF8000004 32 0x0000767B; fi; }
+trap restore_lock EXIT
+if [ "$lock" = 0x00000001 ]; then devmem 0xF8000008 32 0x0000DF0D; fi
+test "$(devmem 0xF800000C 32)" = 0x00000000
+devmem 0xF80001A0 32 0x00300400
+test "$(devmem 0xF80001A0 32)" = 0x00300400
+test "$(devmem 0xF8000108 32)" = 0x0001E000
+printf 'CLOCK_PREPARED=1\n'
+'''
+ result=t.ssh(node,command)
+ if 'CLOCK_PREPARED=1' not in result['stdout']:raise RuntimeError(node+': clock preparation not verified')
+ post=validate(t.ssh(node,SNAPSHOT)['stdout'],node)
+ if post['boot']!=snapshot['boot'] or post['version']!=snapshot['version']:raise RuntimeError(node+': clock preparation identity changed')
+ if single(kv(post['raw']),'FCLK3').upper()!='0X00300400':raise RuntimeError(node+': clock readback mismatch')
+ print(node+': FCLK3 prepared; IO PLL unchanged',flush=True)
+ return post
 class Transport:
  def __init__(self,root,logs):
   self.pty=root/'.runtime/mnt/c/Users/Jayden Le/Desktop/af-wt/consol/firmware/tools/pty_ssh.py';self.logs=logs;self.count=0
@@ -99,6 +151,9 @@ def restore_all(root=HERE,transport=None,timeout=240):
  t=transport or Transport(root,logs)
  state_path=root/'.fpga_restore_state.json';state=json.loads(state_path.read_text()) if state_path.exists() else {}
  snapshots={node:validate(t.ssh(node,SNAPSHOT)['stdout'],node,quiet=node not in state) for node in NODES}
+ for node,snapshot in snapshots.items():
+  values=kv(snapshot['raw'])
+  if single(values,'FCLK3').upper() not in ('0X00101800','0X00300400') or single(values,'IO_PLL').upper()!='0X0001E000':raise RuntimeError(node+': unsupported clock configuration; no clock changes attempted')
  save(logs/'inventory.json',snapshots);inventory_hash=digest((logs/'inventory.json').read_bytes())
  for node,snapshot in snapshots.items():
   if node in state:
@@ -106,6 +161,7 @@ def restore_all(root=HERE,transport=None,timeout=240):
    if pending['boot']==snapshot['boot']:raise RuntimeError(node+': previous dispatch is unresolved on this boot. Inspect '+pending['logs']+'; do not redispatch.')
    if kv(snapshot['raw']).get('ACTIVE'):raise RuntimeError(node+': active loader on new boot')
    del state[node];save(state_path,state)
+  snapshot=prepare_clock(t,node,snapshot)
   if snapshot['version']=='0X000DDFFF':print(node+': v13 already loaded; skip',flush=True);continue
   print(node+': restoring v8 → v13 (volatile)',flush=True)
   token='lab13_'+node+'_'+uuid.uuid4().hex[:16];directory=logs/node;directory.mkdir()

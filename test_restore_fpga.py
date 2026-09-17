@@ -4,9 +4,9 @@ from unittest.mock import patch
 import restore_fpga as f
 class Fake:
  def __init__(self,versions=None):
-  self.versions={n:(versions or {}).get(n,'0x000DDFFF') for n in f.NODES};self.calls=[];self.inputs={};self.wrong=None;self.fail_pre=False;self.bad_token=False;self.dispatches=[]
+  self.versions={n:(versions or {}).get(n,'0x000DDFFF') for n in f.NODES};self.calls=[];self.inputs={};self.wrong=None;self.fail_pre=False;self.bad_token=False;self.dispatches=[];self.clocks={n:'0x00300400' for n in f.NODES};self.pll='0x0001E000';self.clock_writes=[]
  def snapshot(self,node):
-  return f'SERIAL={"foreign" if node==self.wrong else f.NODES[node][1]}\nBOOT=00000000-0000-4000-8000-000000000001\nMANAGER=operating\nFLAGS=0\nVERSION={self.versions[node]}\nCOMPLETE=1\n'
+  return f'SERIAL={"foreign" if node==self.wrong else f.NODES[node][1]}\nBOOT=00000000-0000-4000-8000-000000000001\nMANAGER=operating\nFLAGS=0\nVERSION={self.versions[node]}\nFCLK3={self.clocks[node]}\nIO_PLL={self.pll}\nCOMPLETE=1\n'
  def call(self,node,mode,*args,**kw):
   self.calls.append((node,mode,args))
   if mode=='scp' and str(args[0]).endswith('.input'):
@@ -15,6 +15,10 @@ class Fake:
  def ssh(self,node,command,**kw):
   self.calls.append((node,'ssh',command))
   if command==f.SNAPSHOT:return {'returncode':0,'stdout':self.snapshot(node),'stderr':''}
+  if 'CLOCK_PREPARED=1' in command:
+   subprocess.run(['sh','-n'],input=command,text=True,check=True)
+   self.clock_writes.append(node);self.clocks[node]='0x00300400'
+   return {'returncode':0,'stdout':'CLOCK_PREPARED=1','stderr':''}
   if '--preflight' in command:
    if self.fail_pre:raise RuntimeError('preflight fixture failure')
    return {'returncode':0,'stdout':'ARC3_REBIND_PREFLIGHT_PASS','stderr':''}
@@ -35,6 +39,16 @@ class Tests(unittest.TestCase):
   with contextlib.redirect_stdout(io.StringIO()):f.restore_all(self.root,t,**kw)
  def test_skip_all_v13_without_mutation(self):
   t=Fake();self.run_restore(t);self.assertFalse(t.dispatches);self.assertFalse(any(c[1]=='scp' for c in t.calls))
+ def test_boot_clock_prepared_before_loader(self):
+  t=Fake({'es':'0x0008DFFF'});t.clocks['es']='0x00101800';self.run_restore(t);self.assertEqual(t.clock_writes,['es']);self.assertEqual(t.dispatches,['es'])
+ def test_unknown_clock_on_last_node_blocks_all_writes(self):
+  t=Fake();t.clocks['es']='0x00101800';t.clocks['ed4']='0x12345678'
+  with self.assertRaisesRegex(RuntimeError,'unsupported clock'):self.run_restore(t)
+  self.assertFalse(t.clock_writes);self.assertFalse(t.dispatches)
+ def test_unknown_pll_blocks_clock_changes(self):
+  t=Fake();t.clocks['es']='0x00101800';t.pll='0x00000000'
+  with self.assertRaisesRegex(RuntimeError,'unsupported clock'):self.run_restore(t)
+  self.assertFalse(t.clock_writes)
  def test_disconnect_after_dispatch_does_not_repeat(self):
   t=Fake({'es':'0x0008DFFF'});self.run_restore(t);self.assertEqual(t.dispatches,['es']);self.assertEqual(json.loads((self.root/'.fpga_restore_state.json').read_text()),{})
  def test_wrong_serial_on_last_node_blocks_all_staging(self):

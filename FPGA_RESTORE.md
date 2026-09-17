@@ -28,6 +28,8 @@ python3 restore_fpga.py
 
 ## What changes
 
+Before loading, the collector also prepares the observed boot FCLK3 divider `0x00101800` to the previously used `0x00300400`. It checks all five initial clock configurations before any clock write, requires the IO PLL to remain `0x0001E000`, and checks fresh serial/boot identity, idle processes and device ownership immediately before the change. The SLCR lock state is preserved. Unknown divider/PLL configurations stop the run. This works for a rebooted v8 or already-loaded v13 device; the qualified FPGA loader's clock checks remain intact.
+
 This performs a **volatile FPGA-manager load**, not a persistent firmware flash. The existing persistent v8 firmware stays intact. A power cycle can return the Plutos to v8; the collector restores v13 again on its next run. The operation temporarily disconnects a Pluto's USB interface while restoring its drivers and iiod service, so keep every Pluto powered and attached until the command finishes.
 
 The host locks out concurrent collection from the same clone. A device-local reboot watchdog is armed before USB/driver changes and disarms only on the exact successful receipt. If the load fails, it reboots the existing persistent firmware. No RF waveform or session allocation occurs during restoration.
