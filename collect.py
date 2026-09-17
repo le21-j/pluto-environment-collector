@@ -11,6 +11,8 @@ runtime=HERE/'.runtime'
 if not runtime.is_dir():raise SystemExit('Run bash setup.sh first.')
 if not shutil.which('proot'):raise SystemExit('Install proot (setup.sh).')
 if a.check:
+ import restore_fpga
+ restore_fpga.assets(HERE)
  bad=[]
  for row in json.loads((HERE/'runtime-index.json').read_text()):
   # Registry evolves only during live collection; immutable source still verifies.
@@ -22,6 +24,9 @@ if a.check:
 lock=(HERE/'.collection.lock').open('a')
 try:fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
 except BlockingIOError:raise SystemExit('Another collection is active in this checkout.')
+if a.execute:
+ import restore_fpga
+ restore_fpga.restore_all(HERE)
 argv=['proot','-b',str(runtime/'mnt/c')+':/mnt/c','-b',str(HERE)+':/collector']
 for path in ['home/jayden/armv7-eabihf--glibc--stable','home/jayden/.cache/aircomp_pluto_link']:
  argv+=['-b',str(runtime/path)+':/'+path]

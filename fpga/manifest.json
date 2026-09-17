@@ -1,0 +1,22 @@
+{
+  "payload_sha256": "b33569b289fe3c8feaa09e40f41076862e1297c46dd1f85972305593bc646b59",
+  "payload_bytes": 2083744,
+  "expected_version": "0x000DDFFF",
+  "supported_initial_version": "0x0008DFFF",
+  "source_payload_receipt_sha256": "fea1580f7f1bb25ae1217753012fda2c05ecc41a84cc6539605692e4a924501b",
+  "template_origin": "Previously deployed major13 loader helpers; originally v12-to-v13. Restore adapter derives fresh v8-to-v13 metadata without removing preflight or watchdog gates.",
+  "files": {
+    "es_load.sh": "1d80685d197932b7223aac987593c8e8854af824f3da05163165939267ac587a",
+    "es_load_watchdog.sh": "d11d466fe746e75bf9a99601fdefa21895af34406d70d1195885a68a44402e37",
+    "ed1_load.sh": "97b46f5320f2a3b0d4ac931500b108c17f1577ccb27b30527c516ab6c7b9c54e",
+    "ed1_load_watchdog.sh": "65bcdc954d9dd7ff4c2a348000f55924369b1f0206b771ef9d772cdb9f93421d",
+    "ed2_load.sh": "5eac7960521edc07641ae6c7574fd62ca7b91ead7189b0f92c8f35d7adcc0c8d",
+    "ed2_load_watchdog.sh": "ca29bcf3af8621aa6ad0ec1f42b3aa6e694a9ba83e5dafeab48a4fbf85d4173d",
+    "ed3_load.sh": "c37c5a6e5b684d363523ac358180289417008c6ecc7e8eb22644e1d54ee28a8e",
+    "ed3_load_watchdog.sh": "ea2e4e845887f19a19af84c551b8c335fec4904b04be59b5a25d717f963c65de",
+    "ed4_load.sh": "8d02fa490d94eb350bc67ac43ff64692a2503506d028dfa976df5f3b01e18fa0",
+    "ed4_load_watchdog.sh": "edac517e586ff1e62f2619a5eaa83d7e4a6323fbdadb79b6fdd0ea8664bf66d6",
+    "system_top_major13.bit.bin": "b33569b289fe3c8feaa09e40f41076862e1297c46dd1f85972305593bc646b59"
+  },
+  "live_v8_transition_validated": false
+}

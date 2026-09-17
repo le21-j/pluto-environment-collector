@@ -39,6 +39,8 @@ The runtime, toolchain, preparation-support and fixed-pure-support archives are 
 
 ## Collect an environment
 
+Collection automatically restores the matching v13 FPGA image before RF acquisition, including after a power cycle has restored the persistent v8 image. Run `git pull` and setup again if updating an older clone. See [FPGA_RESTORE.md](FPGA_RESTORE.md) for the exact WSL steps, restore-only command and recovery behavior. This loads the FPGA in RAM and leaves persistent firmware unchanged.
+
 Connect the same five Plutos with their existing FPGA images and IP configuration. Ubuntu must reach ES `192.168.9.9` and EDs `192.168.5.5`, `192.168.7.7`, `192.168.6.6`, `192.168.4.4` over SSH. On Windows, configure network access so **WSL**, rather than just Windows, can reach each address. The script verifies fresh radio identities and performs in-run calibration; plugging in USB alone does not establish these routes.
 
 Preview without contacting radios:
@@ -65,4 +67,4 @@ Keep incomplete runs: they are marked incomplete, and missing measurements are n
 
 `proot` maps an isolated extracted file tree onto the original provenance paths, preserving the exact source hashes and review chain without creating those directories on your laptop. It does not sandbox network access. Source and tools are immutable; collection state remains local. `python3 collect.py --check` verifies bundled immutable files and performs a dry launcher check without radio contact.
 
-The underlying controller has offline source/package checks. This portable package does not claim a successful live RF run on your borrowed laptop. It requires the same five preconfigured radios; it does not flash firmware, configure host routing, or supply a new FPGA image.
+The underlying controller has offline source/package checks. This portable package does not claim a successful live RF run on your borrowed laptop. It includes the matching v13 manager payload and automatic volatile restoration for the same five radios. It leaves persistent firmware and host network routing unchanged.
